@@ -33,49 +33,47 @@ DynamoDB is a fully managed NoSQL database service provided by Amazon Web Servic
 
 ## 1] Created The Dynamodb NoSQL Databse 
 
-![Screenshot 2024-02-24 234557](https://github.com/AdityaAgasti07/Lambda-Dynamodb-Insert/assets/159541012/5e26d5ec-eac0-437d-a2b8-1896e943693f)
+![1](https://github.com/pranavsk313/Lambda_Dynamo_insert/assets/122976840/0ddae2ad-103b-47e7-b954-2c1b4b998128)
 
-## 2] after this created the lambda function 
 
-![Screenshot 2024-02-24 235008](https://github.com/AdityaAgasti07/Lambda-Dynamodb-Insert/assets/159541012/e981f00a-c8ff-46ee-962c-6a78a6e472b3)
+## 2] After this created the lambda function 
 
-![Screenshot 2024-02-24 235020](https://github.com/AdityaAgasti07/Lambda-Dynamodb-Insert/assets/159541012/22d40611-3b58-4708-b6e2-ceb01df6c8a2)
+![2_lambda_function](https://github.com/pranavsk313/Lambda_Dynamo_insert/assets/122976840/c8fcaae1-ec79-40d7-989a-5420055038ca)
 
-## 4] Configured the Event in lamda function 
 
-## Event In lambda 
+## 3] Configured the Event in lamda function 
+  ### Event In lambda 
 
 In AWS Lambda, events are the triggers or stimuli that invoke the execution of your Lambda functions. Lambda functions are designed to respond to various types of events coming from different AWS services or external sources. Here's a simplified explanation of events in Lambda:
 
-![Screenshot 2024-02-25 000351](https://github.com/AdityaAgasti07/Lambda-Dynamodb-Insert/assets/159541012/96f3958a-5ca7-421c-8973-059ddb55d1ca)
+![3 1_configuring the events](https://github.com/pranavsk313/Lambda_Dynamo_insert/assets/122976840/ed53cfa4-462e-4786-9bb8-f42ccad3ebc9)
 
-## 5]  Created the lambda function in python to insert the data into dynamodb 
+## 4]  Created the lambda function in python to insert the data into dynamodb 
 
-![Screenshot 2024-02-27 170038](https://github.com/AdityaAgasti07/Lambda-Dynamodb-Insert/assets/159541012/1af9b67c-a5ef-4f89-a4e5-070e4a85b024)
+![4_code](https://github.com/pranavsk313/Lambda_Dynamo_insert/assets/122976840/2d59dda4-b75b-4cec-9aee-12094123215a)
 
-## 6] Created the items in dyanmodb 
+## 5] Created the items in dyanmodb 
 
 ## Items In Dynamodb
 
 In Amazon DynamoDB, an "item" refers to a single data record within a table. It's analogous to a row in a traditional relational database. Items in DynamoDB are composed of attributes, where each attribute has a name and a value. Here are some key points about items in DynamoDB:
 
-![Screenshot 2024-02-25 001657](https://github.com/AdityaAgasti07/Lambda-Dynamodb-Insert/assets/159541012/04f2d50b-bd09-463b-be0b-afcde3c9632e)
+![1 1_dynamodb_item_creation](https://github.com/pranavsk313/Lambda_Dynamo_insert/assets/122976840/b9fff8d5-00e6-43f9-ad2c-08c0030dc38f)
 
-## 7] Created the IAM Roles for Lambda function to give Full-Access of Dynamodb to the Lambda function 
 
-![Screenshot 2024-02-25 002731](https://github.com/AdityaAgasti07/Lambda-Dynamodb-Insert/assets/159541012/3aa42412-d0bc-468b-83e6-044bb9d0ba18)
+## 6] Created the IAM Roles for Lambda function to give Full-Access of Dynamodb to the Lambda function 
 
-![Screenshot 2024-02-25 002914](https://github.com/AdityaAgasti07/Lambda-Dynamodb-Insert/assets/159541012/96dbab30-53c5-4f26-9baf-006ba354aebd)
+![3_IAM_role](https://github.com/pranavsk313/Lambda_Dynamo_insert/assets/122976840/1a75e2b5-ff0b-42ce-bd2a-e2518b4cbbec)
 
-![Screenshot 2024-02-25 002932](https://github.com/AdityaAgasti07/Lambda-Dynamodb-Insert/assets/159541012/8c706d0f-a4e7-46d4-b9d8-9dfa5690b096)
 
-## 8] Deploy And tested The code 
+## 7] Deploy And tested The code 
 
-![Screenshot 2024-02-27 170059](https://github.com/AdityaAgasti07/Lambda-Dynamodb-Insert/assets/159541012/793c8f05-bbc4-4cd2-8dee-9a71861e6e8a)
+![5](https://github.com/pranavsk313/Lambda_Dynamo_insert/assets/122976840/238843c6-cccf-448e-b317-ddc8bbfe2aa3)
 
-## 9] After testing of Code data Is inserted successfully into The Dynamodb NoSQL Database
 
-![Screenshot 2024-02-27 170953](https://github.com/AdityaAgasti07/Lambda-Dynamodb-Insert/assets/159541012/5a738618-cefa-450c-ba0f-4725549b64e8)
+## 8] After testing of Code data Is inserted successfully into The Dynamodb NoSQL Database
+
+![6_Dynamodb_console_output](https://github.com/pranavsk313/Lambda_Dynamo_insert/assets/122976840/5594050c-3462-4bd8-858a-017ee149d63d)
 
 
 
