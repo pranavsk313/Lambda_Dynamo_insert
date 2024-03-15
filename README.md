@@ -1,4 +1,4 @@
-# Lambda-Dynamodb-Insert
+# Project :- Lambda-Dynamodb-Insert
 A simple AWS serverless project showcasing AWS Lambda &amp; DynamoDB. Includes a Lambda function inserting data into DynamoDB, with IAM role permissions. Perfect for kickstarting serverless data insertion with AWS.
 # Dynamodb
 DynamoDB is a fully managed NoSQL database service provided by Amazon Web Services (AWS). It's designed to provide seamless scalability, high performance, and low latency for applications that require flexible and reliable data storage.
